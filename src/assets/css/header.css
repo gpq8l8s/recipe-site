@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton');
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 20px 0 
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--color-primary);
+}
+.logo h1 {
+  font-size: 25px;
+  margin-left: 10px;
+  font-family: 'Anton', sans-serif;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  font-family: var(--family-principe);
+}
+
+nav ul {
+  font-size: 12px;
+}
+
+nav li:first-of-type{
+  margin-right: 20px;
+}

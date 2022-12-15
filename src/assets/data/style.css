@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+*{ 
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-weight: var(--font-400);
+}
+
+p {
+  background-color: aqua;
+}
+
+:root{
+  --color-primary: rgba(255, 131, 61, 1);
+
+  /** Font Family */
+  --family-principe: 'Open Sans', sans-serif;
+  /** Font Size */
+  --font-400: normal;
+  --font-500: thicker;
+}
