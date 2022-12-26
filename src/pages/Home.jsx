@@ -1,9 +1,9 @@
-import Popular from "../components/Popular"
-import Veggie from "../components/Veggie";
-import Categories from "../components/Categories"
+import Keywords from "../components/Keywords";
 
 function Home() {
-  <Categories/>
+  return(
+    <Keywords />
+  )
 }
 
-export default Home
+export default Home;

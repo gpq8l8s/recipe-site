@@ -1,0 +1,18 @@
+.keywords-wrapper {
+  margin: 20px;
+  display: flex;
+}
+
+.keyword, .blue {
+  margin-right: 15px;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+  background-color: var(--color-bg-grey);
+  border-radius: 20px;
+  font-size: var(--font-size-small);
+}
+
+.blue {
+  color: var(--color-primary);
+}

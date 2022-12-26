@@ -7,16 +7,22 @@
   font-weight: var(--font-400);
 }
 
-p {
+/* p {
   background-color: aqua;
-}
+} */
 
 :root{
-  --color-primary: rgba(255, 131, 61, 1);
+  --color-primary: rgb(255, 80, 5);
+  --color-bg-grey : rgba(217, 217, 217, 1);
+  /* --color-primary: rgba(255, 131, 61, 1); */
 
   /** Font Family */
   --family-principe: 'Open Sans', sans-serif;
-  /** Font Size */
+
+  /* Font Weight **/
   --font-400: normal;
   --font-500: thicker;
+
+  /** Font Size */
+  --font-size-small : 10px;
 }
